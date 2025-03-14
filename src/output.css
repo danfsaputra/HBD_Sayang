@@ -144,7 +144,8 @@ a:hover {
 /* Membuat ukuran gambar di section "us" konsisten */
 #us .example-image {
   width: 100%;
-  height: 350px; /* Atur tinggi gambar agar konsisten */
+  height: auto;
+  aspect-ratio: 1 / 1; /* Membuat rasio aspek 1:1 */
   object-fit: cover; /* Memastikan gambar tetap proporsional */
 }
 
